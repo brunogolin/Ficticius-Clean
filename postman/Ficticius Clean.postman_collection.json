@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "4c368794-f52b-4b40-8da4-07168e171734",
+		"name": "Ficticius Clean",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastrar Veiculo",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"KA\",\r\n   \"brand\":\"FORD\",\r\n   \"model\":\"BASICO\",\r\n   \"year_of_manufacture\":2010,\r\n   \"avg_consumption_city\":5,\r\n   \"avg_consumption_road\":10\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/ficticiusclean/v1/vehicle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ficticiusclean",
+						"v1",
+						"vehicle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Melhor Veiculo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/ficticiusclean/v1/best_vehicle/fuel_price/3/city_km/100/road_km/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ficticiusclean",
+						"v1",
+						"best_vehicle",
+						"fuel_price",
+						"3",
+						"city_km",
+						"100",
+						"road_km",
+						"100"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

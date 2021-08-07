@@ -1,15 +1,12 @@
 # Ficticius Clean
 
-# Descrição
-A empresa "Ficticius Clean" atua na entrega de produtos de limpeza.
-
-# Objetivo do projeto
-API Rest desenvolvida para auxiliar no problema de previsão de gastos com combustíveis de seus veículos na utilização das entregas
+# Objetivo
+API Rest desenvolvida para auxiliar a empresa "Ficticius Clean" no problema de previsão de gastos com combustíveis de seus veículos na utilização das entregas
 
 # Tecnologias utilizadas
-API desenvolvida em JAVA
-Banco de Dados em SQL Server
-Testes em Postman
+- API desenvolvida em JAVA
+- Banco de Dados em SQL Server
+- Testes em Postman
 
 # Features para o futuro
 - Inclusão de uma ferramente de log
